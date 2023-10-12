@@ -1,5 +1,5 @@
 # Image Recognition
-![alt text](https://github.com/Null-byte-00/Imagerecognition/blob/main/imagerec.gif)
+![alt text](https://github.com/Null-byte-00/Imagerecognition/blob/main/imagerec.gif) <br>
 A simple Image recognition program using pytorch
 This is a simple convolutional neural network capable of recognizing 3 different shapes (house, smiling face and fish)<br>
 [you can download full version from here](https://drive.google.com/file/d/1CN_dbHrfiZctm-eJKfEIBof6HHYs1SjA/view?usp=drive_link)
@@ -35,3 +35,9 @@ smilingface: tensor(100., grad_fn=<MulBackward0>)
 fish: tensor(1.0445e-39, grad_fn=<MulBackward0>)
 ```
 these are probability percentages for each shape 
+### draw image for dataset
+you can use draw.py script to draw new images for dataset. run:
+```
+python draw.py
+```
+a window will open. draw a sample then press h,s or f then your sample will be saved in house, smilingface or fish directories respectively
